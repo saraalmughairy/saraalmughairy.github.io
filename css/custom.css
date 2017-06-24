@@ -1,0 +1,120 @@
+/*------------------------------------------------------------------
+    ADD YOUR OWN THEME STYLING HERE 
+-------------------------------------------------------------------*/
+
+.featured-project {
+    /*background: rgba(253,94,77, 0.9);
+    border: 3px solid rgb(253,94,77);*/
+    /*background: -webkit-gradient(linear,0,0,0, from (#f98cb6), to(#f75f94));*/
+    /*background: linear-gradient(#f98cb6,(.8, #f75f94));*/
+
+    -webkit-box-shadow: 0 4px 5px rgba(0,0,0,.3);
+    -moz-box-shadow: 0 4px 5px rgba(0,0,0,.3);
+    box-shadow: 0 4px 5px rgba(0,0,0,.3);
+
+    background: rgba(183,222,237,1);
+    background: -moz-linear-gradient(left, rgba(183,222,237,1) 0%, rgba(183,222,237,0.97) 15%, rgba(113,206,239,0.89) 52%, rgba(33,180,226,0.78) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(183,222,237,1)), color-stop(15%, rgba(183,222,237,0.97)), color-stop(52%, rgba(113,206,239,0.89)), color-stop(100%, rgba(33,180,226,0.78)));
+    /*border-top: 3px solid rgba(183,222,237,1);
+    border-left: 3px solid rgba(183,222,237,1);
+    border-bottom: 3px solid rgba(33,180,326,0.4);
+    border-right: 3px solid rgba(33,180,226,0.4);*/
+    border-radius: 10px;
+}
+
+.portfolio-overlay {
+    border-radius:10px;
+}
+.portfolio-image {
+    border-radius: 10px;
+}
+
+.featured-project .link-simple {
+    top: 50%;
+}
+
+.featured-project-nobg .link-simple {
+    top: 50%;
+}
+
+.description-box {
+    float: left;
+    width: 33.33% !important;
+    height: 250px;
+}
+
+.project-tabs { 
+    float: none !important;
+    text-align: center !important;  
+    height: auto;
+}
+.project-tabs > ul {
+    /*max-width:  800px; */
+}
+.project-tabs > li{
+    float: none !important;
+    display: inline !important;
+}
+
+.project-tabs > li > a {
+    display: inline-block !important;
+}
+
+.nav-tabs.tabs.style-3.five .nav li {
+    width: 20%
+}
+
+.nav-tabs.tabs.style-3.four .nav li {
+    width: 25%
+}
+
+.project-header  p  {
+    line-height: 150%;
+    /*margin: 0;
+    padding: 0;*/
+} 
+
+
+.project-header h5  {
+    margin: 1em 0 0 0;
+    padding: 0;
+} 
+
+
+
+
+#rei {
+    width: 35%;
+    margin-top: 10px;
+    height: auto;
+}
+
+.process-number h1 {
+    display: inline;
+    margin-right: 10px;
+}
+
+.process-number h4 {
+    display: inline;
+}
+
+
+
+/*.process-number {
+    text-align: center;
+}*/
+
+.ramble-yellow {
+     -webkit-box-shadow: 0 4px 5px rgba(0,0,0,.3);
+    -moz-box-shadow: 0 4px 5px rgba(0,0,0,.3);
+    box-shadow: 0 4px 5px rgba(0,0,0,.3);
+    border-radius: 10px;
+    background-color: rgba(255, 218, 90, 0.8);
+
+    /*background-color: #FFDA5A;*/
+}
+
+.inline-text *{
+    display: inline;
+}
+
