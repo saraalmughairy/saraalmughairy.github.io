@@ -29,6 +29,14 @@
     border-radius: 10px;
 }
 
+article .portfolio-image{
+    border-radius:0px;
+}
+article .portfolio-overlay{
+    border-radius:0px;
+}
+
+
 .featured-project .link-simple {
     top: 50%;
 }
