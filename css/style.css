@@ -2707,7 +2707,7 @@ hr.center {
 }
 .with-space .portfolio-item {
 	/*padding: 15px;*/
-	padding: 25px 0;
+	padding: 25px 15px;
 }
 .portfolio-single .link-simple {
 	font-size: 28px;

@@ -76,6 +76,10 @@ article .portfolio-overlay{
     width: 25%
 }
 
+.nav-tabs.tabs.style-3.three .nav li {
+    width: 33%
+}
+
 .project-header  p  {
     line-height: 150%;
     /*margin: 0;
@@ -125,6 +129,10 @@ article .portfolio-overlay{
 .inline-text *{
     display: inline;
 }
+.invision-wrap{
+   width: 263px; height: 558px; padding: 0; overflow: hidden;
+}
+
 
 .invision-embed{
 -ms-zoom: 0.6;
@@ -136,7 +144,19 @@ article .portfolio-overlay{
         -webkit-transform-origin: 0 0;
 }
 
-.invision-wrap{
-   width: 263px; height: 558px; padding: 0; overflow: hidden;
+.xd-wrap{
+   width: 970px; height: 600px; padding: 0; overflow: hidden;
+}
+
+
+
+.xd-embed{
+-ms-zoom: 0.63;
+        -moz-transform: scale(0.63);
+        -moz-transform-origin: 0 0;
+        -o-transform: scale(0.63);
+        -o-transform-origin: 0 0;
+        -webkit-transform: scale(0.63);
+        -webkit-transform-origin: 0 0;
 }
 
