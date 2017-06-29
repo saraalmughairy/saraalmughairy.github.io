@@ -2225,9 +2225,9 @@ hr.center {
 .portfolio-item:hover .portfolio-overlay, .portfolio-item:active .portfolio-overlay, .portfolio-item.active .portfolio-overlay, .portfolio-item:focus .portfolio-overlay {
 	opacity: 1;
 }
-.portfolio-item:hover img {
+/*.portfolio-item:hover img {
 	transform: scale(1.1);
-}
+}*/
 .portfolio-item {
 	position: relative;
 	overflow: hidden;
@@ -2706,7 +2706,8 @@ hr.center {
 	margin: 0 -15px;
 }
 .with-space .portfolio-item {
-	padding: 15px;
+	/*padding: 15px;*/
+	padding: 25px 0;
 }
 .portfolio-single .link-simple {
 	font-size: 28px;
