@@ -160,3 +160,23 @@ article .portfolio-overlay{
         -webkit-transform-origin: 0 0;
 }
 
+.site-title{
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 1.5em;
+    color:#414a6b;
+}
+
+.byline {
+    font-size:25px;
+    color: rgba(7,15,23,.8);
+    font-weight:400;
+    line-height:1.5em;
+}
+
+.period {
+    font-size:35px;
+    font-weight:700;
+    color:#e65b6c;
+    line-height: 1.8em;
+}
