@@ -166,7 +166,7 @@ header nav .ownmenu ul.dropdown .indicator {
 	-webkit-box-sizing: border-box;
 }
 .ownmenu ul.dropdown li:hover > a {
-	color: #ff83a6 !important;
+	color: #e65b6c !important;
 }
 .ownmenu ul.dropdown li ul.dropdown.left {
 	left: auto;
@@ -1191,7 +1191,7 @@ input[type="checkbox"] .styled:checked + label::after, input[type="radio"] .styl
 	border-radius: 5px;
 }
 .bx-wrapper .bx-pager.bx-default-pager a:hover, .bx-wrapper .bx-pager.bx-default-pager a.active {
-	background: #ff83a6;
+	background: #e65b6c;
 }
 .bx-wrapper .bx-prev {
 	left: -50px;

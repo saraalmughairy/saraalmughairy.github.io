@@ -22,20 +22,18 @@
     border-radius: 10px;
 }
 
-.portfolio-overlay {
-    border-radius:10px;
-}
-.portfolio-image {
-    border-radius: 10px;
+
+
+/*/*article .portfolio-image{
+    border-radius:0px;
+}*/
+.featured-project-nobg .portfolio-overlay{
+    /*border-radius:20px;*/
 }
 
-article .portfolio-image{
-    border-radius:0px;
-}
-article .portfolio-overlay{
-    border-radius:0px;
-}
+.featured-project-nobg {
 
+}
 
 .featured-project .link-simple {
     top: 50%;
@@ -193,6 +191,7 @@ h4 .site-title{
 }
 
 .byline {
+    font-family: 'Raleway', sans-serif;
     font-size:25px;
     color: rgba(7,15,23,.8);
     font-weight:400;
@@ -211,4 +210,12 @@ h3 .period {
     font-weight:700;
     color:#e65b6c;
     line-height: 1.8em;
+}
+
+.all-caps {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: 'uppercase';
+    color: #2c2c2c;
 }
