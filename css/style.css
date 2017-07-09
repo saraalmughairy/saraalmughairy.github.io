@@ -5724,9 +5724,8 @@ input:focus, textarea:focus, keygen:focus, select:focus {
 			FOOTER
 ========================================================*/
 #footer {
-	background-color: #e65b6c;
-	color: #636363;
-	font-size: 12px;
+	/*background-color: #e65b6c;*/
+	background-color: #414a6b;
 }
 #footer li {
 	line-height: 36px;
@@ -5738,9 +5737,13 @@ input:focus, textarea:focus, keygen:focus, select:focus {
 	color: #e65b6c;
 }
 #footer p {
+	font-family: "Poppins", sans-serif;
 	line-height: 24px;
 	font-size: 13px;
-	font-weight: 600;
+	font-weight: 400;
+	color: white;
+	text-transform: uppercase;
+
 }
 #footer .footer-top {
 	padding-top: 50px;
@@ -5761,7 +5764,7 @@ input:focus, textarea:focus, keygen:focus, select:focus {
 }
 #footer .footer-bottom {
 	margin-top: 20px;
-	background: #fd5e4d;
+	/*background: #fd5e4d;*/
 	padding-top: 15px;
 	padding-bottom: 10px;
 }
@@ -5793,7 +5796,6 @@ input:focus, textarea:focus, keygen:focus, select:focus {
 	text-transform: uppercase;
 }
 #footer .copyright p {
-	font-size: 11px;
 	letter-spacing: 1px;
 	margin-bottom: 0px;
 }

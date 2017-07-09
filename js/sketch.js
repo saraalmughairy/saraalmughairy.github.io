@@ -83,7 +83,8 @@ function calcWave() {
 
 function renderWave() {
   noStroke();
-  fill(230,91,108);
+fill(230,91,108); //pink
+  //fill(65,74,107); //blue
   // A simple way to draw the wave with an ellipse at each location
   for (var x = 0; x < yvalues.length; x++) {
     ellipse(x*xspacing, height/2+yvalues[x], 16, 16);
