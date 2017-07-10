@@ -56,24 +56,24 @@ body {
 
 h1 {
   font-size: 40px;
-  font-weight: normal;
-  color: #41454a;
   font-family: 'Poppins', 'Open Sans', sans-serif;
   font-weight: 600;
   letter-spacing: 1.5px;
+    line-height: 1.5em;
+    color:#41454a;
 }
 h2 {
-  font-size: 36px;
-  font-weight: normal;
-  color: #41454a;
+    font-size: 23px;
   font-family: 'Poppins', 'Open Sans', sans-serif;
   font-weight: 600;
   letter-spacing: 1.5px;
+    line-height: 1.5em;
+    color:#41454a;
 }
 h3 {
   font-size: 30px;
   font-weight: normal;
-  color: #41454a;
+  color: #141414;
   font-family: 'Poppins', 'Open Sans', sans-serif;
   font-weight: 600;
   letter-spacing: 1.5px;
@@ -87,24 +87,26 @@ h4 {
   letter-spacing: 1.5px;
 }
 h5 {
-  font-size: 24px;
-  font-weight: 600;
-  color: #535353;
+  font-size: 22px;
+  font-weight: 400;
+  color: #141414;
   font-family: 'Raleway', sans-serif;
   font-weight: 600;
   letter-spacing: 1.5px;
+  line-height:1.5em;
 }
 h6 {
   font-size: 13px;
   text-transform: uppercase;
   font-weight: bold;
-  color: #141414;
+  color: #41454a;
   font-family: 'Poppins', 'Open Sans', sans-serif;
+  letter-spacing:1.2px;
 }
 p {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 300;
-  color: #41454a;
+  color: #141414;
   font-size: 16px;
   line-height: 24px;
   text-rendering: optimizeLegibility;
@@ -7383,12 +7385,12 @@ blockquote cite {
   right: 0px !important;
 }
 .accordion-style-2 .panel-default > .panel-heading a {
-  font-size: 14px;
-  text-transform: none;
-  color: #e65b6c;
+  font-size: 11px;
+  text-transform: uppercase;
+  color: #141414;
 }
 .accordion-style-2 .panel-default > .panel-heading .panel-title a.collapsed {
-  color: #6f6f6f;
+  color: #141414;
 }
 .accordion-style-2 .panel {
   background: none;
@@ -7399,12 +7401,11 @@ blockquote cite {
   line-height: 28px;
 }
 .accordion-style-2 .panel-body {
-  background: #fff;
   margin-top: 0px;
   padding: 20px;
   color: #6f6f6f;
   line-height: 26px;
-  background: rgba(0, 0, 0, 0.05);
+  background: rgba(65,74,107,.1);
 }
 .accordion-style-2 .panel-default > .panel-heading .panel-title a:before {
   font-size: 8px;

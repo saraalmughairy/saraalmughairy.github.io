@@ -99,20 +99,20 @@
     height: auto;
 }
 
-.process-number h1 {
+/*.process-number h1 {
     display: inline;
     margin-right: 10px;
     color: rgb(230,91,108);
-    font-size: 80px;
+    font-size: 40px;
 }
 
 .process-number h4 {
     display: inline;
         color: rgba(7,15,23,.8);
-            font-size: 50px;
+            font-size: 40px;
 
 
-}
+}*/
 
 
 
@@ -177,12 +177,12 @@
 
 
 
-.site-title {
+/*.site-title {
     font-weight: 600;
     line-height: 1.5em;
     color:#414a6b;
-}
-
+}*/
+/*
 h3.site-title{
     font-size: 23px;
 }
@@ -194,7 +194,7 @@ h1.site-title{
 h4.site-title{
     font-size:18px;
     text-justify:right;
-}
+}*/
 
 .byline {
     font-family: 'Raleway', sans-serif;
