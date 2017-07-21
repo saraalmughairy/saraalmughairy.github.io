@@ -1,0 +1,48 @@
+[id$=details] {
+  display: none;
+}
+
+/* g:hover > [id$=details] {
+  display: block;
+}
+  */
+
+
+
+
+[id$=shadow] {
+  display: none;
+}
+
+[id$=hump] {
+  opacity: 0.5;
+}
+
+[id$=area] {
+  pointer-events: all;
+}
+
+/* rect:hover ~ [id$=hump], g:hover [id$=hump] {
+      transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -webkit-transition: opacity .25s ease-in-out;
+  opacity: 0.8;
+
+}
+
+rect:hover ~ [id$=details], g:hover [id$=hump] ~ [id$=details] {
+     display:block;
+
+}
+
+ */
+
+g:hover > [id$=details] {
+  display: block;
+}
+
+g:hover > [id$=shadow] {
+  display: block;
+}
+
+
