@@ -38,7 +38,7 @@
         <circle id="marketing-dot" cx="1028.25" cy="319.66" r="8.07" fill="#e65b6c" stroke="#fff" stroke-miterlimit="10"/>
         <text transform="translate(965.96 367.46)" font-size="23" fill="#444" font-family="Poppins-SemiBold, Poppins" font-weight="700">marketing</text>
         <g id="marketing-details">
-          <text transform="translate(802.01 479.43)" font-size="16" font-family="Poppins-Regular, Poppins">placed in 2 business plan competitions (UW)</text>
+          <text transform="translate(802.01 479.43)" font-size="16" font-family="Poppins-Regular, Poppins">placed in 2 business plan competitions (UW) </text>
           <text transform="translate(826.01 449.43)" font-size="16" font-family="Poppins-Regular, Poppins">won $15k in video ad competitions in 2016</text>
         </g>
         <path id="marketing-hump" d="M1140,299.21s-55-144.1-142.85-85.84-149.95,85.84-149.95,85.84Z" transform="translate(25)" fill="#abddda" opacity="0.77"/>
