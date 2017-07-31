@@ -10,6 +10,7 @@
 
 
 
+
 [id$=shadow] {
   display: none;
 }
@@ -36,6 +37,10 @@ rect:hover ~ [id$=details], g:hover [id$=hump] ~ [id$=details] {
 }
 
  */
+
+ /* #design-details {
+   display:block;
+ } */
 
 g:hover > [id$=details] {
   display: block;
