@@ -139,7 +139,7 @@
 
 
 .invision-embed{
--ms-zoom: 0.6;
+        -ms-zoom: 0.6;
         -moz-transform: scale(0.6);
         -moz-transform-origin: 0 0;
         -o-transform: scale(0.6);
