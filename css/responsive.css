@@ -4,8 +4,16 @@
 .promo-block .promo-text {
 	padding-right: 20px;
 }
+a:hover,
+a:focus {
+  color: #e65b6c;
+}
 }
 @media(max-width:1530px) { 
+	a:hover,
+a:focus {
+  color: #e65b6c;
+}
 .vertical-menu .container{
 	width:100%;
 }
@@ -30,6 +38,10 @@
 }
 
 @media(max-width:1200px) { 
+	a:hover,
+a:focus {
+  color: #e65b6c;
+}
 .vertical-menu .header{
 	width:240px;
 }
@@ -55,6 +67,11 @@
 @media(max-width:1024px) {
 }
 @media(min-width:992px) and (max-width:1199px) {
+
+	a:hover,
+a:focus {
+  color: #e65b6c;
+}
 .single-pages .ownmenu{
 	float:right;
 }
@@ -158,6 +175,11 @@ header .search-nav ul.dropdown {
 }
 }
 @media(min-width:768px) and (max-width:991px) {
+
+	a:hover,
+a:focus {
+  color: #e65b6c;
+}
 .in-the-look li {
 	width: 50%;
 }
@@ -383,6 +405,33 @@ header .ownmenu .look-book .media {
 }
 }
 @media(max-width:767px) {
+.center-on-mobile {
+	text-align: center;
+}
+.col-3 {
+	display:block;
+	padding: 15px auto !important;
+}
+
+.display-none-on-mobile {
+	display:none;
+}
+
+.margin-top-100 {
+	margin-top: 25px !important;
+}
+
+.margin-top-80 {
+	margin-top: 20px !important;
+}
+.margin-top-50 {
+	margin-top: 12.5px !important;
+}
+
+.margin-top-30{
+	margin-top:7.5px !important;
+}
+	
 .team-col-5 li{
 	width:50%;
 }
@@ -419,7 +468,7 @@ header {
 	margin-top: 0px;
 	padding-top: 15px;
 	padding-bottom: 15px;
-	background: rgba(0,0,0,0.8);
+	background: #fff;
 	
 }
 .is-sticky .sticky {

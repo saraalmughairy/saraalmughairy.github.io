@@ -1,5 +1,13 @@
 jQuery( document ).ready(function( $ ) {
 "use strict"
+
+//ADDING FASTCLICK
+$(function() {
+	FastClick.attach(document.body);
+});
+
+
+
 /*-----------------------------------------------------------------------------------*/
 /* 	LOADER
 /*-----------------------------------------------------------------------------------*/
@@ -282,4 +290,3 @@ $('.testi-simple-slide').owlCarousel({
         }
     }
 });
-

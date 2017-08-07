@@ -2744,13 +2744,15 @@ hr.center {
 }
 .portfolio-item .link-simple {
 }
-.with-space {
-  margin: 0 -15px;
-}
+
 .with-space .portfolio-item {
   /*padding: 15px;*/
   padding: 25px 15px;
 }
+.home-portfolio.with-space {
+  margin: 0 -15px !important;
+}
+
 .portfolio-single .link-simple {
   font-size: 28px;
 }
