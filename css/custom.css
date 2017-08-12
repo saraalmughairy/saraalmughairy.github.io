@@ -325,3 +325,14 @@ body {
   border-radius: 50%;
   background: #F45B69;
 }
+
+a.bg-primary:focus, a.bg-primary:hover {
+
+    background-color:rgba(230, 91, 108,0.8) !important;
+}
+
+p a {
+
+    font-family: 'Source Sans Pro', sans-serif;
+font-weight:bold;
+}

@@ -1,0 +1,89 @@
+.mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-total, .mejs-controls .mejs-time-rail .mejs-time-total {
+    background: rgba(0,0,0,.33);
+}
+
+.mejs-container .mejs-controls .mejs-time {
+    color: #333333;
+}
+
+.mejs-container, .mejs-container .mejs-controls, .mejs-embed, .mejs-embed body {
+    background: #ffffff;
+}
+
+.mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current, .mejs-controls .mejs-time-rail .mejs-time-loaded {
+    background: rgba(0,0,0,.33);
+}
+
+.mejs-controls .mejs-time-rail .mejs-time-current {
+    background: #3D9CD2;
+}
+
+.wp-playlist-tracks {
+    margin-top: -50px;
+}
+
+
+
+/* Add your JavaScript code here.
+                     
+If you are using the jQuery library, then don't forget to wrap your code inside jQuery.ready() as follows:
+
+jQuery(document).ready(function( $ ){
+    // Your code in here 
+});
+
+End of comment */ 
+
+// Set default value for Script Text Box
+jQuery(document).ready(function(){
+    jQuery('.addon-custom-price').val("0");
+});
+
+// Set default value for Script Text Box
+jQuery(document).ready(function(){
+    jQuery('.addon-custom-textarea').val("List of features");
+});
+
+// Set default value for Script Text Box
+jQuery(document).ready(function(){
+    jQuery("input[name='addon-271-google-font-0[google-font]']").val("e.g., Arial, Helvetica");
+});
+
+
+jQuery(document).ready(function(){
+    jQuery("input[name='addon-271-text-color-3[background-color]']").val("#000000");
+});
+
+jQuery(document).ready(function(){
+    jQuery("input[name='addon-271-text-color-3[color]']").val("#ffffff");
+});
+
+jQuery(document).ready(function(){
+    jQuery("input[name='addon-273-text-1[call-to-action-text]']").val("(e.g. www.videoturbine.com)");
+});
+
+/* Cart icon with order count. Override default implementation. */
+function storefront_header_cart() {
+    ?>
+    <div class="site-header-cart"><a class="cart-content cart-customlocations" href="<?php echo WC()->cart->get_cart_url(); ?>" title="<?php _e( 'View your shopping cart' ); ?>">
+            <span class="cart-content-count"><?= WC()->cart->cart_contents_count; ?></span></a></div>
+<?php }
+ 
+ 
+// Ensure cart contents update when products are added to the cart via AJAX (place the following in functions.php).
+// Used in conjunction with https://gist.github.com/DanielSantoro/1d0dc206e242239624eb71b2636ab148
+add_filter('add_to_cart_fragments', 'woocommerce_header_add_to_cart_fragment');
+ 
+function woocommerce_header_add_to_cart_fragment( $fragments ) {
+    global $woocommerce;
+ 
+    ob_start();
+ 
+    ?>
+    <a class="cart-content cart-customlocations" href="<?php echo $woocommerce->cart->get_cart_url(); ?>" title="<?php _e( 'View your shopping cart' ); ?>">
+        <span class="cart-content-count"><?= $woocommerce->cart->cart_contents_count; ?></span></a>
+    <?php
+ 
+    $fragments['a.cart-customlocations'] = ob_get_clean();
+ 
+    return $fragments;

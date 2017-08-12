@@ -71,12 +71,13 @@ h2 {
     color:#41454a;
 }
 h3 {
-  font-size: 30px;
-  font-weight: normal;
+  font-size: 16px;
   color: #141414;
-  font-family: 'Poppins', 'Open Sans', sans-serif;
+  font-family: 'Source Sans Pro', 'Open Sans', sans-serif;
   font-weight: 600;
-  letter-spacing: 1.5px;
+  line-height:24px;
+    letter-spacing: 1.5px;
+
 }
 h4 {
   font-size: 22px;
@@ -98,7 +99,7 @@ h5 {
 h6 {
   font-size: 13px;
   text-transform: uppercase;
-  font-weight: bold;
+  font-weight: 600;
   color: #41454a;
   font-family: 'Poppins', 'Open Sans', sans-serif;
   letter-spacing:1.2px;
@@ -1137,7 +1138,7 @@ header nav li a {
   letter-spacing: 1px;
   float: left;
   font-size: 13px;
-  font-weight: 400;
+  font-weight: 600;
   position: relative;
 }
 header.dark-text nav .ownmenu li a {
