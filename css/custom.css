@@ -336,3 +336,7 @@ p a {
     font-family: 'Source Sans Pro', sans-serif;
 font-weight:bold;
 }
+
+article h6 {
+    margin-top:0px;
+}
