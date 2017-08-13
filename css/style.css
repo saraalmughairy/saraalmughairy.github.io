@@ -1106,10 +1106,13 @@ header {
   position: absolute;
   width: 100%;
   z-index: 999;
-  padding: 0px;
-  padding-top: 10px;
   /*background: rgba(0,0,0,0.2);*/
   background: #ffffff;
+}
+
+header .col-md-10 {
+    padding: 10px 0px 0px 0px !important;
+
 }
 header .logo {
   float: left;
@@ -1117,6 +1120,12 @@ header .logo {
   text-align: left;
   z-index: 9999;
   margin-top: 10px;
+ 
+}
+
+header .logo img {
+   width:40px;
+  height:auto;
 }
 header nav {
   display: inline-block;
@@ -1145,7 +1154,7 @@ header.dark-text nav .ownmenu li a {
   color: #141414;
 }
 header nav .ownmenu li {
-  padding: 0 15px;
+  padding-left:15px;
 }
 header nav li a:hover {
   color: #2c2c2c;
