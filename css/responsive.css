@@ -6,10 +6,9 @@
 @media (min-width:1200px) {
 	.case-studies .portfolio-overlay {
 height: 110%;
-left: 7.5%;
+left: 7%;
 width: 85%;
 top: -5%;
-border-radius: 30px;
 }
 
 .case-studies .position-center-center {
@@ -106,10 +105,9 @@ a:focus {
 
 .case-studies .portfolio-overlay {
 height: 110%;
-left: 7.5%;
+left: 7%;
 width: 85%;
 top: -5%;
-border-radius: 30px;
 }
 
 .case-studies .position-center-center {
