@@ -12276,9 +12276,10 @@ blockquote cite {
   border: none;
 }
 .nav-tabs.tabs.style-3 {
+		background-color:#F3F3F3;
+
   border: none;
   padding: 20px;
-  border: 1px solid #e5e5e5;
 }
 .nav-tabs.tabs.style-3 .nav {
   margin-bottom: 20px;
