@@ -1119,7 +1119,6 @@ header .logo {
   position: absolute;
   text-align: left;
   z-index: 9999;
-  margin-top: 10px;
  
 }
 
@@ -1154,7 +1153,7 @@ header.dark-text nav .ownmenu li a {
   color: #141414;
 }
 header nav .ownmenu li {
-  padding-left:15px;
+  padding-left:25px;
 }
 header nav li a:hover {
   color: #2c2c2c;

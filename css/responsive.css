@@ -1,17 +1,31 @@
 /* @media(min-width:1400px) and (max-width:1920px) {
-} */
-@media(min-width:1200px) and (max-width:1920px) {
-.promo-block .promo-text {
-	padding-right: 20px;
-}
 
-.case-studies .portfolio-overlay {
+
+} */
+
+@media (min-width:1200px) {
+	.case-studies .portfolio-overlay {
 height: 110%;
 left: 7.5%;
 width: 85%;
 top: -5%;
 border-radius: 30px;
 }
+
+.case-studies .position-center-center {
+	left:49%;
+}
+}
+@media(min-width:1200px) and (max-width:1920px) {
+.promo-block .promo-text {
+	padding-right: 20px;
+}
+
+header .logo {
+	  padding-top: 15px !important;
+
+}
+
 
 
 a:hover,
@@ -48,6 +62,17 @@ a:focus {
 }
 
 @media(max-width:1200px) { 
+
+
+
+.case-studies .position-center-center {
+	left:48%;
+}
+
+.case-studies .col-md-5 h5 {
+	display:none;
+}
+
 	a:hover,
 a:focus {
   color: #e65b6c;
@@ -78,15 +103,18 @@ a:focus {
 }
 @media(min-width:992px) and (max-width:1199px) {
 
-	.case-studies .portfolio-overlay {
-		height: 110%;
-		left: 7.5%;
-		width: 85%;
-		top: -5%;
-		border-radius: 30px;
-		
-		}
 
+.case-studies .portfolio-overlay {
+height: 110%;
+left: 7.5%;
+width: 85%;
+top: -5%;
+border-radius: 30px;
+}
+
+.case-studies .position-center-center {
+	left:48.5%;
+}
 	a:hover,
 a:focus {
   color: #e65b6c;
@@ -210,7 +238,6 @@ header .logo {
 	float:left;
 	position: absolute;
 	text-align: center;
-	margin-bottom: 20px;
 }
 .ownmenu {
 	width: 100%;

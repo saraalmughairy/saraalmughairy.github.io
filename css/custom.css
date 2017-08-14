@@ -24,21 +24,6 @@
 
 
 
-/*/*article .portfolio-image{
-    border-radius:0px;
-}*/
-.featured-project-nobg .portfolio-overlay{
-    /*border-radius:20px;*/
-}
-
-.featured-project-nobg {
-
-}
-
-.featured-project .link-simple {
-    top: 50%;
-}
-
 .featured-project-nobg .link-simple {
     top: 50%;
 }
