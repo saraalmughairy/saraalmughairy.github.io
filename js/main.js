@@ -58,8 +58,8 @@ $('.testi-slide-2').bxSlider({
 /*-----------------------------------------------------------------------------------*/
 /*	CUBE PORTFOLIO
 /*-----------------------------------------------------------------------------------*/
-$('.ajax-work').cubeportfolio({
-     filters: '#ajax-work-filter',
+$('.work').cubeportfolio({
+     filters: '#work-filter',
      loadMore: '#ajax-loadMore',
      loadMoreAction: 'click',
      layoutMode: 'grid',
