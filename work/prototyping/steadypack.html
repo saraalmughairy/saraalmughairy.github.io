@@ -1,0 +1,223 @@
+<div id="wrap" id="wrapper">
+
+    <section class="portfolio-single margin-top-80 center-on-mobile">
+        <div class="container">
+
+            <!--======= PROBLEM SPACE =========-->
+            <div class="col-md-offset-2">
+                <h1>Parallel Prototyping</h1>
+
+            </div>
+        
+
+            <div class="row">
+            
+                <div class="col-md-8 col-md-offset-2">
+                    <h5>Holistically targeting multiple product criteria.</h5>
+                    <p>As a culmination of our Prototpying Studio, we were tasked with combining multiple prototyping methods to assess whether producing a product was worthwhile. Teammates for this project include Ankit Potdar and Matthew Eziashi.</p>
+                    <img class="img-responsive" src="images/steadypack/prototypes.png" alt="">
+                </div>
+
+            </div>
+            <!-- end row-->
+
+            <div class="col-md-offset-2 margin-top-100">
+                <h1 class="">Problem</h1>
+
+            </div>
+         
+
+            <!--<h2 class="">. . .it's complicated</h2>-->
+            <div class="row">
+            
+                <div class="col-md-8 col-md-offset-2">
+                    <h5>How can we help adults and children practice healthier backpack use?</h5>
+                    <p>Improper backpack use can lead to health problems, such as back, neck, shoulder strain, and headaches.
+                        This is especially common and problematic in children, who often far exceed the recommended weight
+                        limit of 15-20% of body weight while developing postural muscles.</p>
+                </div>
+
+            </div>
+            <!-- end row-->
+
+
+            <div class="col-md-offset-2 margin-top-100">
+                <h1>Solution</h1>
+
+            </div>
+    
+
+            <!--<h2 class="">. . .it's complicated</h2>-->
+            <div class="row">
+             
+                <div class="col-md-8 col-md-offset-2">
+                    <h5>A clip-on backpack accessory that promotes healthy backpack-wearing.</h5>
+                    <p>by informing the user when the backpack is over the recommended weight, how to achieve better weight
+                        distribution while loading their backpack, whether weight is equally distributed across their shoulders,
+                        and whether they have correct posture while wearing the backpack. </p>
+
+                                            <img class="img-responsive " src="images/steadypack/solution_3.png" alt="">
+
+                </div>
+
+            </div>
+            <!-- end row-->
+
+      
+
+            <div class="col-md-offset-2 margin-top-100">
+                <h1>Conceptual Prototype</h1>
+
+            </div>
+    
+
+            <!--<h2 class="">. . .it's complicated</h2>-->
+            <div class="row">
+        
+                <div class="col-md-8 col-md-offset-2">
+                    <h5>Is SteadyPack desirable?</h5>
+                    <p>Using an unfinished model prototype, we filmed the product and its essential functions and selling points,
+                        using visual effects as needed to demonstrate planned features. We tailored the script and editing
+                        to the format of a standard crowdfunding pitch or product marketing video, to reflect the sort of
+                        contextual environment that users would expect to see a product like this in. Having Potential users view a video depicting the concept of SteadyPack and respond to a survey, we were able to validate the value of SteadyPack before technically implementing it.</p>
+                    </br>
+                    <iframe src="https://player.vimeo.com/video/159392633?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" class="display-none-on-mobile"
+                        webkitallowfullscreen mozallowfullscreen allowfullscreen>
+                    </iframe>
+                </div>
+
+
+            </div>
+            <!--<div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                    <iframe src="https://player.vimeo.com/video/159392633?title=0&byline=0&portrait=0" width="640" height="360"
+                        frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen>
+                    </iframe>
+                </div>
+            </div>-->
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                    </br>
+                    </br>
+                    <p>To find out what people thought of our concept, we had 23 people view our video and respond to a survey.
+                        In this survey, we found that most respondents (82%) sympathized with the problem, attributing shoulder
+                        and back pain to improper backpack use. 95% of respondents felt that the SteadyPack may be able to
+                        reduce the problem, but only 27% would definitely use it for themselves, mostly because of lack of
+                        regular concern for the problem (50%). Respondents also expressed reluctance to install multiple
+                        parts, or use a visible backpack accessory.
+                    </p>
+                    </br>
+                    </br>
+                    <img class="img-responsive" src="images/steadypack/storyboard-2.png" /></br>
+                </div>
+            </div>
+            <!-- end row-->
+
+            <div class="col-md-offset-2 margin-top-100">
+                <h1>Feasibility Prototype</h1>
+
+            </div>
+       
+
+            <!--<h2 class="">. . .it's complicated</h2>-->
+            <div class="row">
+                
+                <div class="col-md-8 col-md-offset-2">
+                    <h5>Is it technically feasible to make SteadyPack?</h5>
+                    <p>Our motivation for creating an arduino prototype was twofold: we wanted to evaluate the technical feasibility
+                        of providing real-time meaningful information about backpack use and to provide us with a means for
+                        user-testing (otherwise we would have had to do a Wizard Of Oz user test). </p>
+                    </br>
+
+                    <img class="img-responsive" src="images/steadypack/arduino.png" /></br>
+                    </br>
+
+                    <p>For the scope of this project, we decided to implement two of SteadyPack’s four features using Arduino:
+                        informing the user if (1) based on their bodyweight, if their backpack weighs more than the recommended
+                        maximum weight and (2) if the weight was unequally distributed across their shoulders. Based on secondary
+                        research and sketching out schematics, we predicted that the way to achieve this would be to use
+                        pressure sensors under the bag’s straps (assessing weight distribution between the shoulders)
+                        and under the bag's handle (operating similarly to a hanging scale).</p>
+                 
+                 
+                                    <img class="img-responsive" src="images/steadypack/schematics-2.png" alt="">
+
+                    <img class="img-responsive" src="images/steadypack/schematics.png" /></br>
+                    </br>
+                    <p>
+                        We were unsure ahead of time if we should go with the larger sensors, which would provide less computational noise but risk
+                        bending since they would be sandwiched between the user’s straps and shoulders or the smaller sensors,
+                        which would would be less likely to bend, but could be less accurate due to spanning less of the
+                        contact between the users shoulder’s and straps, so we purchased and tested both. In our early sketches,
+                        we imagined using rubber padding in between the sensor and the strap, to better distribute weight
+                        over the sensor, reducing noise. We ended up being able to use a couple of layers of electrical tape
+                        to achieve the same thing. Even with this padding, there was still too much noise when we tested
+                        it, so through our arduino code, we threw out any sensor data that was more that two standard deviations
+                        away from the average.
+                    </p>
+                                        <img class="img-responsive" src="images/steadypack/salon-1.jpg" /></br>
+
+                </div>
+
+            </div>
+            <!-- end row-->
+
+            <div class="col-md-offset-2 margin-top-100">
+                <h1>Usability Prototype</h1>
+
+            </div>
+       
+
+            <!--<h2 class="">. . .it's complicated</h2>-->
+            <div class="row">
+            
+                <div class="col-md-8 col-md-offset-2">
+                    <h5>Is SteadyPack usable?</h5>
+                    <p>When coming up with the form factor of the model, we decided that we wanted it to self-contained to the
+                        backpack (ie., not require a separate smartphone application and computer interface) because we wanted
+                        it be useful to a variety of people (e.g., children) and for a variety of activities (e.g., backpacking).
+                        We decided the feedback provided should be accessible to both the wearer themselves and others so
+                        that in the case of children, caretakers are able to perceive the feedback and assist the children
+                        accordingly, meaning it should have some sort of external, visual display. Lastly, we wanted it to
+                        be an accessory, not a smart backpack, so that users could retrofit whatever bag they already owned
+                        or preferred.</p>
+
+                         
+                    </br>
+                    <p>Using a laser cutter, acrylic, LED lights, and Velcro, we crafted a clip on accessory that provided feedback
+                        using various light patterns. We had to experiment with several patterns of particle board cutting
+                        to find a consistency that was flexible enough to fold over the backpack strap without snapping in
+                        half, but sturdy enough to hold the display. We wanted to know if users would find the shape and
+                        function of the clip it intuitive, so we asked users where they assume the SteadyPack would go.
+                        5 out of 5 users tested answered that they would clip it around the strap of the backpack. Users
+                        found the lighting interface intuitive, although comprehension was varied slightly. Most users understood
+                        the general idea of what the lights indicated, but each user phrased it differenty. Haptic feedback
+                        was unanimously preferred over visual feedback using lights. One user mentioned that lights may be more desirable for children, but preferred vibrations over
+                        lights for herself. Two parents we interviewed said that in addition to this being helpful for finding out if the pack was too heavy,
+                        it could serve as a tool to teach their child how to properly carry excess weight. Overall, users testing the model prototype found the problem relatable
+                        and the solution intuitive, but the use of lights on the device less than ideal.
+
+                    </p>
+                </div>
+            </div><!--row-->
+
+            <div class="row margin-top-30">
+
+                <div class="col-md-3 col-md-offset-2 margin-top-100 display-none-on-mobile">
+
+                                        <img class="img-responsive margin-top-100" src="images/steadypack/professional-use.png" alt="">
+                </div>
+                <div class="col-md-5">
+                    <img src="images/steadypack/hyun.jpg" class="img-responsive" />
+                
+
+                </div>
+
+            </div>
+            <!-- end row-->
+
+
+        </div>
+        <div class="margin-top-100"></div>
+        <!--container-->
+    </section>

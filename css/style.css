@@ -11180,7 +11180,7 @@ hr.center {
 ========================================================*/
 #footer {
   /*background-color: #e65b6c;*/
-  background-color: #414a6b;
+  /* background-color: #414a6b; */
 }
 #footer li {
   line-height: 36px;
@@ -11196,7 +11196,7 @@ hr.center {
   line-height: 24px;
   font-size: 13px;
   font-weight: 400;
-  color: white;
+  color: #41454a;
   text-transform: uppercase;
 }
 
