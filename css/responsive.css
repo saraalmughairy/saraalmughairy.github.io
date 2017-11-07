@@ -4,6 +4,16 @@
 } */
 
 @media (min-width: 1200px) {
+
+  .left-margin-decrease {
+    padding-left:0px !important;
+    padding-right:30px !important;
+  }
+  .right-margin-decrease {
+    padding-left:30px !important;
+    padding-right:0px !important;
+  }
+  
   .case-studies .portfolio-overlay {
     height: 110%;
     left: 7%;
@@ -80,7 +90,7 @@
     left: 51%;
   }
 
-  .case-studies .col-md-5 h5 {
+  .portfolio-home h5 {
     display: none;
   }
 
@@ -113,6 +123,15 @@
 @media (max-width: 1024px) {
 }
 @media (min-width: 992px) and (max-width: 1199px) {
+
+  .portfolio-home h5 {
+    display: none;
+  }
+
+  .left-margin-decrease {
+    padding-left:0px !important;
+    padding-right:30px !important;
+  }
   .case-studies .portfolio-overlay {
     height: 110%;
     left: 7%;
@@ -463,6 +482,19 @@
   .center-on-mobile {
     text-align: center;
   }
+
+  .mini-proj {
+    margin-top:50px;
+  }
+.tech-talks {
+  margin-top:100px;
+}
+  .col-2 {
+    display: block;
+    padding: 15px auto !important;
+  }
+
+
   .col-3 {
     display: block;
     padding: 15px auto !important;
@@ -758,6 +790,11 @@
     width: 100%;
     margin-bottom: 30px;
   }
+
+  .portfolio .col-2 li {
+    width: 100%;
+    margin-bottom: 30px;
+  }
   .construction .filter li {
     padding: 0px 10px;
   }
@@ -937,6 +974,10 @@
   }
   .col-3 .portfolio-item {
     width: 50%;
+  }
+
+  .col-2 .portfolio-item {
+    width: 100%;
   }
   .intro.style-6 {
     text-align: center;
