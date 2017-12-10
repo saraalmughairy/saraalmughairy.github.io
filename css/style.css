@@ -9958,12 +9958,14 @@ header .logo {
   position: absolute;
   text-align: left;
   z-index: 9999;
+  /* padding-top: 18px; */
  
 }
 
 header .logo img {
    width:40px;
   height:auto;
+  /* padding-top: 18px; */
 }
 header nav {
   display: inline-block;

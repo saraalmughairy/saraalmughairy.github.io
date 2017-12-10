@@ -49,7 +49,7 @@
   }
 
   header .logo {
-    padding-top: 15px !important;
+    /* padding-top: 18px !important; */
   }
 
   a:hover,
@@ -263,6 +263,7 @@
     float: left;
     position: absolute;
     text-align: center;
+    /* padding-top: 18px; */
   }
   .ownmenu {
     width: 100%;
@@ -564,6 +565,7 @@
     position: absolute;
     float: left;
     text-align: center;
+    /* padding-top: 18px; */
   }
   .webimenu {
     width: 100%;
